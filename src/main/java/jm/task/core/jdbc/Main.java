@@ -20,7 +20,7 @@ public class Main {
         for (User user : listUs) {
             System.out.println(user);
         }
-//        userService.cleanUsersTable();
-//        userService.dropUsersTable();
+        userService.cleanUsersTable();
+        userService.dropUsersTable();
     }
 }
